@@ -3,7 +3,8 @@ Photo-realistic residual bit-depth enhancement by advanced conditional GAN
 
 # Instructions: 
    1) Install TensorFlow(GPU);
-   2) Run 4-8/test_4_8.py to recover 8-bit images from 4-bit versions.\
+   2) Download BE-ACGAN model from [Baidu Drive](https://pan.baidu.com/s/1FtvA7KXOiUXurZbOCscBnA)(4m43) to `./model/`
+   3) Run 4-8/test_4_8.py to recover 8-bit images from 4-bit versions.\
       Run 4-16/test_4_16.py to recover 16-bit images from 4-bit versions.\
       It will directly compress and reconstruct images from testdata/.
    3) Results output to results_48/ or results_416/.
